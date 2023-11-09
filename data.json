@@ -1,0 +1,185 @@
+{
+  "account": [
+    {
+      "name": "Seller One",
+      "mobile": "8888888888",
+      "email": "s1@gmail.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "name": "Seller Two",
+      "mobile": "9999999999",
+      "email": "s2@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "Gowri",
+      "mobile": "8989898989",
+      "email": "Gowri123@gmail.com",
+      "password": "Gowri@123",
+      "id": 3
+    },
+    {
+      "name": "Gowtham",
+      "mobile": "7898987899",
+      "email": "Gowtham1@gmail.com",
+      "password": "1234",
+      "id": 4
+    }
+  ],
+  "product": [
+    {
+      "name": "Apple - Seller 1",
+      "price": "300",
+      "photo": "1.jpg",
+      "details": "This product belongs to seller one",
+      "seller": "1",
+      "id": 1
+    },
+    {
+      "name": "Mango - Seller 1",
+      "price": "100",
+      "photo": "2.jpg",
+      "details": "This product belongs to seller one",
+      "seller": "1",
+      "id": 2
+    },
+    {
+      "name": "Banana - Seller 1",
+      "price": "50",
+      "photo": "3.jpg",
+      "details": "This product belongs to seller one",
+      "seller": "1",
+      "id": 3
+    },
+    {
+      "name": "Printer - Seller 2",
+      "price": "12000",
+      "photo": "4.jpeg",
+      "details": "This product belongs to seller two",
+      "seller": "2",
+      "id": 4
+    },
+    {
+      "name": "Scanner - Seller 2",
+      "price": "5000",
+      "photo": "2.jpg",
+      "details": "This product belongs to seller two",
+      "seller": "2",
+      "id": 5
+    }
+  ],
+  "cart": [],
+  "order": [
+    {
+      "fullname": "Siyaram Yadav",
+      "email": "siyaram@gmail.com",
+      "mobile": "8792462607",
+      "address": "Marathahalli Bangalore",
+      "itemlist": [
+        {
+          "name": "Scanner - Seller 2",
+          "price": "5000",
+          "photo": "2.jpg",
+          "details": "This product belongs to seller two",
+          "seller": "2",
+          "id": 5,
+          "qty": 2
+        },
+        {
+          "name": "Banana - Seller 1",
+          "price": "50",
+          "photo": "3.jpg",
+          "details": "This product belongs to seller one",
+          "seller": "1",
+          "id": 3,
+          "qty": 2
+        },
+        {
+          "name": "Apple - Seller 1",
+          "price": "300",
+          "photo": "1.jpg",
+          "details": "This product belongs to seller one",
+          "seller": "1",
+          "id": 1,
+          "qty": 3
+        }
+      ],
+      "id": 1
+    },
+    {
+      "fullname": "Sumith Kumar",
+      "email": "sumittest@gmail.com",
+      "mobile": "8758785487",
+      "address": "Silkboard Bangalore",
+      "itemlist": [
+        {
+          "name": "Mango - Seller 1",
+          "price": "100",
+          "photo": "2.jpg",
+          "details": "This product belongs to seller one",
+          "seller": "1",
+          "id": 2,
+          "qty": 3
+        },
+        {
+          "name": "Printer - Seller 2",
+          "price": "12000",
+          "photo": "4.jpg",
+          "details": "This product belongs to seller two",
+          "seller": "2",
+          "id": 4,
+          "qty": 2
+        }
+      ],
+      "id": 2
+    },
+    {
+      "fullname": "Ranveer",
+      "email": "ranveer@gmail.com",
+      "mobile": "8957456325",
+      "address": "marathahalli bangalore",
+      "itemlist": [
+        {
+          "name": "Apple - Seller 1",
+          "price": "300",
+          "photo": "1.jpg",
+          "details": "This product belongs to seller one",
+          "seller": "1",
+          "id": 1,
+          "qty": 1
+        },
+        {
+          "name": "Scanner - Seller 2",
+          "price": "5000",
+          "photo": "2.jpg",
+          "details": "This product belongs to seller two",
+          "seller": "2",
+          "id": 5,
+          "qty": 1
+        },
+        {
+          "name": "Printer - Seller 2",
+          "price": "12000",
+          "photo": "4.jpg",
+          "details": "This product belongs to seller two",
+          "seller": "2",
+          "id": 4,
+          "qty": 1
+        },
+        {
+          "name": "Mango - Seller 1",
+          "price": "100",
+          "photo": "2.jpg",
+          "details": "This product belongs to seller one",
+          "seller": "1",
+          "id": 2,
+          "qty": 1
+        }
+      ],
+      "id": 3
+    }
+  ]
+}
